@@ -18,3 +18,94 @@ header{
     width: 127px;
     height: 27px;
 }
+
+/* #icon-invis{
+    width: 127px;
+    height: 27px;
+    margin-top: 23px;
+    position: static;
+} */
+
+#wrap-searchbar{
+    margin-left: 150px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.header-inputs{
+    height: 35px;
+    border: hidden;
+}
+
+.header-inputs:focus{
+    outline-width: 0;
+}
+
+#location-field{
+    margin-left: 5px;
+    width: 140px;
+    border: 0px;
+    border-right: 1px;
+    border-radius: 2px;
+    border-style: solid;
+}
+
+#restaurant-field{
+    width: 220px;
+    margin-right: 5px;
+}
+
+#wrap-login{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    display: block;
+}
+
+.login-buttons{
+    font-size: 20px;
+    margin: 0px 30px;
+}
+
+#delivery-dining{
+    position: absolute;
+    margin-top: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.wrap-mode-selection{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 0 15px 0 0;
+}
+
+.wrap-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:rgba(255, 185, 220, .25);
+}
+
+.wrap-img-current{
+    background-color:rgba(255, 197, 118, .5);
+}
+
+.mode-img{
+    margin: 10px 0px 0px 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.mode-text{
+    margin-top:15px;
+    margin-left: 15px;
+}

@@ -13,28 +13,63 @@
     <body>
         <header> <!-- Three parts 1. Icon and Searchbar + login&signup 2.Delivery,Dining,etc 3.Filters(This is sticky component) -->
             <div id="wrap-icon-delivery">
+
                 <div id="icon-searchbar">
                     <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png" id="icon">
+                    <!-- <div class="invisble" id="icon-invis"></div> -->
+                    <div id="wrap-searchbar">
+                        <input type="text" class="header-inputs" id="location-field" placeholder="Location">
+                        🔎
+                        <input type="text" class="header-inputs" id="restaurant-field"placeholder="Search restaurant...">
+                    </div>
+                    <div id="wrap-login">
+                        <span class="login-buttons">Log In</span>
+                        <span class="login-buttons">Sign Up</span>
+                    </div>
                 </div>
-                <div id="delivery-dining"></div>
+
+                <div id="delivery-dining">
+                    <div class="wrap-mode-selection"> <div class="wrap-img wrap-img-current"> <img class="mode-img" src="https://b.zmtcdn.com/data/o2_assets/c0bb85d3a6347b2ec070a8db694588261616149578.png"></div> <span class="mode-text">Delivery</span> </div>
+                    <div class="wrap-mode-selection"> <div class="wrap-img"> <img class="mode-img" src="https://b.zmtcdn.com/data/o2_assets/c0bb85d3a6347b2ec070a8db694588261616149578.png"></div> <span class="mode-text">Dining Out</span> </div>
+                    <div class="wrap-mode-selection"> <div class="wrap-img"> <img class="mode-img" src="https://b.zmtcdn.com/data/o2_assets/c0bb85d3a6347b2ec070a8db694588261616149578.png"></div> <span class="mode-text">Nightlife</span> </div>
+                    <div class="wrap-mode-selection"> <div class="wrap-img"> <img class="mode-img" src="https://b.zmtcdn.com/data/o2_assets/c0bb85d3a6347b2ec070a8db694588261616149578.png"></div> <span class="mode-text">Nutrition</span> </div>
+                </div>
+
             </div>
+
             <div id="wrap-filter">
                 <div id="filters"></div>
             </div>
+
         </header> 
+
         <main>
+
             <div id="wrap-inspiration">
-                <div id="inspiration"></div>
+
+                <div id="inspiration">
+
+                </div>
+
             </div>
+
             <div id="wrap-brands-resturants">
+
                 <div id="popular-brands"></div>
                 <div id="restaurants"></div>
+
             </div>
+
         </main>
+
         <footer>
+
             <div id="wrap-footer">
+
                 <div id="footer"></div>
+
             </div>
+
         </footer>
     </body>
     <script src="app.js"></script>

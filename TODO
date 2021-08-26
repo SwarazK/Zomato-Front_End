@@ -1,0 +1,2 @@
+Zomato:
+    ☐ Refactor the header to split the icon and the mode menu bars as for some reason the mode menu cant be cleared normally
