@@ -1,0 +1,20 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100vw;
+}
+#wrap-icon-delivery{
+    margin: 0 auto;
+    width: 1100px;
+    height: 72px;
+    position: relative;
+}
+#icon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 127px;
+    height: 27px;
+}
